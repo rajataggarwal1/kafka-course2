@@ -27,11 +27,11 @@ public class TwitterProducer {
     public TwitterProducer(){}
     
    final Logger logger= LoggerFactory.getLogger(TwitterProducer.class.getName());
-
-    private String consumerKey ="80ShBbdn4KUUqYhDcIXVvQ6At";
-    private String consumerSecret="g8efh85ddMGOWlC2UWFMqrl8GTvpNXbH8P93Ktl1skoVtG0Ria";
-    private String token="3158079492-TLOhW1diXl0lp4BlUwDVkac675mdfsJ0Yl0tB5Q";
-    private String secret="w5zsZDdjdx6wCjY7Ew8uLCcx2p6LWPTbMoQ0S6QHo0yGt";
+// take key from twitter account
+    private String consumerKey ="";
+    private String consumerSecret="";
+    private String token="";
+    private String secret="";
     // now chaing to follow kafka after adding producer   
      List<String> terms = Lists.newArrayList("kafka");    
 
